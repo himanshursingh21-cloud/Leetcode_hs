@@ -1,5 +1,6 @@
 /* Write your T-SQL query statement below */
-select email as Email
-from Person
-group by email
-Having count(email)>1;
+select c.name as Customers
+from Customers as c
+left join Orders as o
+on c.id=o.CustomerId
+where o.customerId is null;

@@ -1,6 +1,4 @@
 /* Write your T-SQL query statement below */
-SELECT TOP 1 customer_number
-FROM Orders
-GROUP BY customer_number
-ORDER BY COUNT(*) DESC;
-
+select name,population,area
+from World
+where (area>=3000000) or (population>=25000000);

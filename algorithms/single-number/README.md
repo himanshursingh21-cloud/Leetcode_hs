@@ -2,7 +2,7 @@
 
 **Difficulty:** Easy
 
-**Language:** MS SQL Server
+**Language:** Java
 
 ## Problem
 
